@@ -1,0 +1,213 @@
+:root{
+    --pr-color:04853;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    font-weight:700;
+    font-size: 20px;
+    
+}
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight:700;
+}
+
+#hero{
+    height: 100vh;
+}
+
+.hero-tagline h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 72px;
+}
+
+.hero-tagline p {
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%; /* Corrected from "widh" to "width" */
+}
+
+/* layanan */
+#layanan{
+    padding:100px 0;
+}
+
+h2{
+    font-size:30px;
+    font-weight:500;
+    color: rgb(156, 62, 8);
+}
+.sub-title{
+    font-size:18px; 
+    color:#000;
+}
+
+.card-layanan{
+    widht:100%;
+    height:213px;
+    border-radius:5px;
+    background-color:#fff; 
+    padding:40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    transition:all .1s ease-in;
+}
+
+.circle-icon{
+    widht:50px;
+    background-color:#fff;
+   
+}
+
+.card-layanan h3{
+    color:green;
+    font-size:24px;
+    transition:all .3s ease-in;
+}
+
+.card-layanan p{
+    color:green;
+    font-size:14px;
+    transition:all .3s ease-in;
+}
+
+/* hover */
+.card-layanan:hover{
+    widht:100%;
+    height:213px;
+    border-radius:5px;
+    background:linear-gradient(170deg, #00FF00,#007245,#007245,#000); 
+    padding:40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+}
+
+.circle-icon:hover{
+    widht:50px;
+    background-color:#fff;
+    border-radius:50%;
+
+    transition:all .1s ease-in;
+}
+
+.card-layanan:hover h3{
+    color:#fff;
+    font-size:24px;
+    transition:all .2s ease-in;
+}
+
+.card-layanan:hover p{
+    color:#fff;
+    font-size:14px;
+    transition:all .3s ease-in;
+}
+
+/* section umkm */
+
+.card{
+    height:440px;
+    border:none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    widht:95%;
+}
+
+.card-body h4 {
+    color: #000000; /* Corrected from "#00000" to "#000000" */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0.8rem;
+}
+.card-body p{
+    color: #141414;
+    font-weight:400;
+    font-size:14px;
+}
+
+.card:hover{
+    background:linear-gradient(170deg, #fab78b,#ca9652,#dd7b0a,#ec8611);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    transition:all ease-in-out .3s;
+}
+
+.card:hover .card-body h4{
+    color: #fff;
+    transition:all ease-in-out .3s
+}
+
+.card:hover .card-body p{
+    color: #fff;
+    transition:all ease-in-out .3s;
+}
+
+.card-kontak{
+    bottom:50px;
+    left: 0px;
+    right:0;
+    bottom:10px;
+    position:absolute;
+    background-color:#fff;
+}
+
+.card-kontak p{
+    font-size:12px;
+}
+
+/* kontak */
+
+#kontak{
+    background-image: url(../asset/Assets/bener.png);
+    margin-top:158px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#kontak .overlay{
+    background:rgba(0, 0, 0, 0.5);
+}
+
+#kontak .container{
+    padding:148px 0 148px 0;
+}
+
+#kontak h3{
+    font-weight:600;
+    font-size:40px;
+    line-height:60px;
+    color:#fff;
+}
+
+.kontak h6{
+    font-weight:600;
+    font-size:18px;
+    line-height:27px;
+    color: #fff;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a{
+    font-style:normal;
+    font-weight:normal;
+    font-size:16px;
+    line-hight:18p;
+    color:#fff;
+    text-decoration:none;
+    margin-left:18px;
+}
+
+.button-kontak{
+    height: 55px;
+    background: #009858;
+    font-weight:600;
+    font-size:24px;
+    line-height:36px;
+    color:#fff;
+    border:none;
+}
